@@ -1,0 +1,312 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestingExternalSDKBinary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ExternalTestSDK",
+        "printedName": "ExternalTestSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "imageFileName",
+            "printedName": "imageFileName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24TestingExternalSDKBinary0B7TestSDKC13imageFileNameSSvpZ",
+            "mangledName": "$s24TestingExternalSDKBinary0B7TestSDKC13imageFileNameSSvpZ",
+            "moduleName": "TestingExternalSDKBinary",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24TestingExternalSDKBinary0B7TestSDKC13imageFileNameSSvgZ",
+                "mangledName": "$s24TestingExternalSDKBinary0B7TestSDKC13imageFileNameSSvgZ",
+                "moduleName": "TestingExternalSDKBinary",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24TestingExternalSDKBinary0B7TestSDKC13imageFileNameSSvsZ",
+                "mangledName": "$s24TestingExternalSDKBinary0B7TestSDKC13imageFileNameSSvsZ",
+                "moduleName": "TestingExternalSDKBinary",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24TestingExternalSDKBinary0B7TestSDKC13imageFileNameSSvMZ",
+                "mangledName": "$s24TestingExternalSDKBinary0B7TestSDKC13imageFileNameSSvMZ",
+                "moduleName": "TestingExternalSDKBinary",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "imageFileResourcePath",
+            "printedName": "imageFileResourcePath()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24TestingExternalSDKBinary0B7TestSDKC21imageFileResourcePath10Foundation3URLVSgyFZ",
+            "mangledName": "$s24TestingExternalSDKBinary0B7TestSDKC21imageFileResourcePath10Foundation3URLVSgyFZ",
+            "moduleName": "TestingExternalSDKBinary",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "writeThis",
+            "printedName": "writeThis(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24TestingExternalSDKBinary0B7TestSDKC9writeThis7messageS2S_tFZ",
+            "mangledName": "$s24TestingExternalSDKBinary0B7TestSDKC9writeThis7messageS2S_tFZ",
+            "moduleName": "TestingExternalSDKBinary",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "writeThis",
+            "printedName": "writeThis(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24TestingExternalSDKBinary0B7TestSDKC9writeThis7messageS2S_tF",
+            "mangledName": "$s24TestingExternalSDKBinary0B7TestSDKC9writeThis7messageS2S_tF",
+            "moduleName": "TestingExternalSDKBinary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTestImageData",
+            "printedName": "getTestImageData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24TestingExternalSDKBinary0B7TestSDKC03getD9ImageData10Foundation0H0VSgyFZ",
+            "mangledName": "$s24TestingExternalSDKBinary0B7TestSDKC03getD9ImageData10Foundation0H0VSgyFZ",
+            "moduleName": "TestingExternalSDKBinary",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24TestingExternalSDKBinary0B7TestSDKC",
+        "mangledName": "$s24TestingExternalSDKBinary0B7TestSDKC",
+        "moduleName": "TestingExternalSDKBinary",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/cricket\/projects\/_ios\/_extras\/TestingExternalSDKBinary\/TestingExternalSDKBinary\/File.swift",
+      "kind": "StringLiteral",
+      "offset": 177,
+      "length": 22,
+      "value": "\"bird_throwaway_image\""
+    },
+    {
+      "filePath": "\/Users\/cricket\/projects\/_ios\/_extras\/TestingExternalSDKBinary\/TestingExternalSDKBinary\/File.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
+      "length": 26,
+      "value": "\"bird_throwaway_image.jpg\""
+    },
+    {
+      "filePath": "\/Users\/cricket\/projects\/_ios\/_extras\/TestingExternalSDKBinary\/TestingExternalSDKBinary\/File.swift",
+      "kind": "StringLiteral",
+      "offset": 459,
+      "length": 5,
+      "value": "\"jpg\""
+    },
+    {
+      "filePath": "\/Users\/cricket\/projects\/_ios\/_extras\/TestingExternalSDKBinary\/TestingExternalSDKBinary\/File.swift",
+      "kind": "StringLiteral",
+      "offset": 552,
+      "length": 56,
+      "value": "\"### -! ExternalTestSDK => STATIC writeThis: \""
+    },
+    {
+      "filePath": "\/Users\/cricket\/projects\/_ios\/_extras\/TestingExternalSDKBinary\/TestingExternalSDKBinary\/File.swift",
+      "kind": "StringLiteral",
+      "offset": 607,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cricket\/projects\/_ios\/_extras\/TestingExternalSDKBinary\/TestingExternalSDKBinary\/File.swift",
+      "kind": "StringLiteral",
+      "offset": 740,
+      "length": 57,
+      "value": "\"### -! ExternalTestSDK => DYNAMIC writeThis: \""
+    },
+    {
+      "filePath": "\/Users\/cricket\/projects\/_ios\/_extras\/TestingExternalSDKBinary\/TestingExternalSDKBinary\/File.swift",
+      "kind": "StringLiteral",
+      "offset": 796,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cricket\/projects\/_ios\/_extras\/TestingExternalSDKBinary\/TestingExternalSDKBinary\/File.swift",
+      "kind": "StringLiteral",
+      "offset": 923,
+      "length": 33,
+      "value": "\"### -! This probably won't work\""
+    }
+  ]
+}

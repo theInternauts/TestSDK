@@ -1,0 +1,11 @@
+framework module TestingExternalSDKBinary {
+  umbrella header "TestingExternalSDKBinary.h"
+  export *
+
+  module * { export * }
+}
+
+module TestingExternalSDKBinary.Swift {
+  header "TestingExternalSDKBinary-Swift.h"
+  requires objc
+}
